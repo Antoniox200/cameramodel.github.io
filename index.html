@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Shiny Pleased Wildcat</title>
+    <meta property="og:title" content="Shiny Pleased Wildcat" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <!--This is the head section-->
+    <!-- <style> ... </style> -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div>
+      <link href="./home.css" rel="stylesheet" />
+
+      <div class="home-container">
+        <header data-thq="thq-navbar" class="home-navbar-interactive">
+          <div
+            data-thq="thq-navbar-nav"
+            data-role="Nav"
+            class="home-desktop-menu"
+          >
+            <a href="index.html" class="home-navlink">Home</a>
+            <nav
+              data-thq="thq-navbar-nav-links"
+              data-role="Nav"
+              class="home-nav"
+            >
+              <a
+                href="https://drive.google.com/file/d/1xXvZB1FmHRmAqSJEOSjn_qk_X8ZFNvMw/view?usp=share_link"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="home-link"
+              >
+                Dataset
+              </a>
+              <a href="map.html" class="home-navlink1">Interactive Map</a>
+              <a
+                href="https://github.com/Antoniox200/NYC-Speed-Camera-Efficacy-Model.git"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="home-link1"
+              >
+                Code
+              </a>
+              <a href="data-sources.html" class="home-navlink2">Data Sources</a>
+            </nav>
+          </div>
+          <div data-thq="thq-navbar-btn-group" class="home-btn-group"></div>
+          <div data-thq="thq-burger-menu" class="home-burger-menu">
+            <svg viewBox="0 0 1024 1024" class="home-icon">
+              <path
+                d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+              ></path>
+            </svg>
+          </div>
+          <div data-thq="thq-mobile-menu" class="home-mobile-menu">
+            <div
+              data-thq="thq-mobile-menu-nav"
+              data-role="Nav"
+              class="home-nav1"
+            >
+              <div class="home-container01">
+                <div data-thq="thq-close-menu" class="home-menu-close">
+                  <svg viewBox="0 0 1024 1024" class="home-icon02">
+                    <path
+                      d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <nav
+                data-thq="thq-mobile-menu-nav-links"
+                data-role="Nav"
+                class="home-nav2"
+              >
+                <a
+                  href="https://drive.google.com/file/d/1xXvZB1FmHRmAqSJEOSjn_qk_X8ZFNvMw/view?usp=share_link"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="home-link2"
+                >
+                  &nbsp; Dataset
+                </a>
+                <span class="home-text">Interactive Map</span>
+                <a
+                  href="https://github.com/Antoniox200/NYC-Speed-Camera-Efficacy-Model.git"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="home-link3"
+                >
+                  Code
+                </a>
+              </nav>
+            </div>
+            <div class="home-icon-group">
+              <svg viewBox="0 0 950.8571428571428 1024" class="home-icon04">
+                <path
+                  d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"
+                ></path></svg
+              ><svg viewBox="0 0 877.7142857142857 1024" class="home-icon06">
+                <path
+                  d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
+                ></path></svg
+              ><svg viewBox="0 0 602.2582857142856 1024" class="home-icon08">
+                <path
+                  d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+        </header>
+        <h1 class="home-text01">Speed Camera Affirmation Model</h1>
+        <h2 class="home-text02">Antonio Iadicicco - 2023</h2>
+        <div class="home-testimonial">
+          <div class="home-container02">
+            <div class="home-container03">
+              <div class="home-testimonial-card">
+                <div class="home-testimonial1">
+                  <span class="home-text03">Introduction</span>
+                  <span class="home-text04">Introduction</span>
+                  <span class="home-text05">
+                    <span class="home-text06">
+                      As the largest source of income of all NYC traffic
+                      tickets, speed cameras have generated significant debate
+                      among the public and policymakers alike. With Mayor Eric
+                      Adams recently announcing the expansion of their operation
+                      to 24/7 operation, it is vital that we carefully evaluate
+                      their role in promoting road safety, especially
+                      considering that their initial deployment was focused on
+                      protecting school children in designated school zones.
+                    </span>
+                    <br class="home-text07" />
+                    <br class="home-text08" />
+                    <br class="home-text09" />
+                    <br class="home-text10" />
+                    <span class="home-text11">
+                      This project aims to provide an unbiased, evidence-based
+                      analysis of speed camera effectiveness in the context of
+                      New York City's unique urban environment. Through rigorous
+                      investigation, we will attempt to shed light on the
+                      critical question of whether speed cameras are truly
+                      fulfilling their intended purpose, or if alternative
+                      approaches to traffic management should be considered.
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div class="home-testimonial-card1">
+                <div class="home-testimonial2">
+                  <span class="home-text12">Data</span>
+                  <span class="home-text13">Sources</span>
+                  <span class="home-text14">
+                    <span>
+                      Traffic Ticket Datasets (2014-2023): comprehensive data on
+                      traffic tickets issued within New York City, specifically
+                      focusing on those related to speed camera violations.
+                    </span>
+                    <br class="home-text16" />
+                    <br class="home-text17" />
+                    <span>
+                      Speed Camera Locations: Extracted from the aforementioned
+                      traffic ticket datasets.
+                    </span>
+                    <br class="home-text19" />
+                    <br class="home-text20" />
+                    <br class="home-text21" />
+                    <br class="home-text22" />
+                    <span>
+                      NYC Collisions Database (2012-2023): This dataset provides
+                      detailed information on vehicle collisions and pedestrian
+                      injuries within the city.
+                    </span>
+                    <br />
+                    <br />
+                    <span>
+                      For a detailed list of data sources, please see the
+                    </span>
+                    <a href="data-sources.html" class="home-navlink3">
+                      data sources page
+                    </a>
+                    <br />
+                  </span>
+                </div>
+              </div>
+              <div class="home-testimonial-card2">
+                <div class="home-testimonial3">
+                  <span class="home-text28">Methodology</span>
+                  <span class="home-text29">Introduction</span>
+                  <span class="home-text30">
+                    <span>Data Processing:</span>
+                    <br class="home-text32" />
+                    <br class="home-text33" />
+                    <span>
+                      a. Geocoding Speed Camera locations: To facilitate spatial
+                      analysis, I geocoded the extracted speed camera locations
+                      to obtain their precise geographic coordinates.
+                    </span>
+                    <br class="home-text35" />
+                    <span>
+                      b. Fuzz matching street and intersection names: This step
+                      involved matching collision data (street and intersection
+                      names) with the corresponding speed camera data (street
+                      and intersection names), accounting for possible
+                      discrepancies in naming conventions.
+                    </span>
+                    <br class="home-text37" />
+                    <br class="home-text38" />
+                    <span>
+                      c. Geomatching collisions to speed camera locations: I
+                      then associated collisions with their respective speed
+                      camera locations, based on the matched street and
+                      intersection data.
+                    </span>
+                    <br class="home-text40" />
+                    <br class="home-text41" />
+                    <span>Data Analysis:</span>
+                    <br class="home-text43" />
+                    <br class="home-text44" />
+                    <span>
+                      Intersection snapshots (before and after speed camera
+                      installation): By comparing collision data before and
+                      after the installation of speed cameras, I was able to
+                      generate an accurate snapshot of the impact of speed
+                      cameras on vehicle collisions and pedestrian injuries at
+                      each intersection.
+                    </span>
+                    <br class="home-text46" />
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="home-container04">
+          <div class="home-container05">
+            <img
+              alt="image"
+              src="public/playground_assets/crashes%20forecast-400h.png"
+              class="home-image"
+            />
+          </div>
+          <div class="home-container06">
+            <h1 class="home-text47">Collisions</h1>
+            <span class="home-text48">
+              This chart displays the monthly trend of all intersections with
+              speed cameras (before and after installation) over time. This aids
+              us in further investigating whether the reduction in collisions is
+              the result of the speed cameras, or other environmental factors.
+            </span>
+          </div>
+        </div>
+        <div class="home-container07">
+          <div class="home-container08">
+            <h1 class="home-text49">Tickets</h1>
+            <span class="home-text50">
+              <span>
+                This chart reveals the frequency of speed camera-generated
+                tickets issued monthly. This
+              </span>
+              <br />
+              <span>
+                visualization aids in understanding how the intensity of
+                enforcement may impact driver behavior&nbsp; &nbsp; and
+                consequently affect collision rates.
+              </span>
+            </span>
+          </div>
+          <div class="home-container09">
+            <img
+              alt="image"
+              src="public/playground_assets/tickets%20forecast-400h.png"
+              class="home-image01"
+            />
+          </div>
+        </div>
+        <div class="home-container10">
+          <div class="home-container11">
+            <img
+              alt="image"
+              src="public/playground_assets/injuries%20forecast-400h.png"
+              class="home-image02"
+            />
+          </div>
+          <div class="home-container12">
+            <h1 class="home-text54">Injuries</h1>
+            <span class="home-text55">
+              This chart highlights the variations and trends in automobile
+              related injury occurrences at speed camera intersections. This
+              helps us investigate whether the presence of speed cameras leads
+              to any noticeable reduction in pedestrian injuries over time.
+            </span>
+          </div>
+        </div>
+        <div class="home-container13">
+          <div class="home-container14">
+            <h1 class="home-text56">Fatalities</h1>
+            <span class="home-text57">
+              This chart presents the monthly number of traffic-related
+              fatalities at speed camera intersections, assisting us in finding
+              any potential association between speed camera deployment and
+              traffic safety improvements further. By observing trends and
+              changes in fatality rates, we can evaluate the effectiveness of
+              speed cameras in enhancing road safety and saving lives.
+            </span>
+          </div>
+          <div class="home-container15">
+            <img
+              alt="image"
+              src="public/playground_assets/deaths%20forecast-400h.png"
+              class="home-image03"
+            />
+          </div>
+        </div>
+        <div class="home-container16">
+          <div class="home-container17">
+            <img
+              alt="image"
+              src="public/playground_assets/beforeafter-400h.png"
+              class="home-image04"
+            />
+          </div>
+          <div class="home-container18">
+            <h1 class="home-text58">
+              Collisions per month before vs after camera
+            </h1>
+            <span class="home-text59">
+              This chart shows the average number of collisions at a speed
+              camera intersection before and after the installation of the
+              camera. This points directly to the possibility of the cameras
+              having a positive effect on traffic safety, though other
+              environmental factors must be investigated further.
+            </span>
+          </div>
+        </div>
+        <div class="home-container19">
+          <div class="home-container20">
+            <h1 class="home-text60">Model Evaluations</h1>
+          </div>
+        </div>
+        <div class="home-container21">
+          <div class="home-container22">
+            <h1 class="home-text61">Tickets</h1>
+          </div>
+          <div class="home-container23">
+            <img
+              alt="image"
+              src="public/playground_assets/tickets.mae%20performance-400h.png"
+              class="home-image05"
+            />
+          </div>
+        </div>
+        <div class="home-container24">
+          <div class="home-container25">
+            <img
+              alt="image"
+              src="public/playground_assets/crashes.mae%20performance-400h.png"
+              class="home-image06"
+            />
+          </div>
+          <div class="home-container26">
+            <h1 class="home-text62">Collisions</h1>
+          </div>
+        </div>
+        <div class="home-container27">
+          <div class="home-container28">
+            <h1 class="home-text63">Injuries</h1>
+          </div>
+          <div class="home-container29">
+            <img
+              alt="image"
+              src="public/playground_assets/injuries.mae%20performance-400h.png"
+              class="home-image07"
+            />
+          </div>
+        </div>
+        <div class="home-container30">
+          <div class="home-container31">
+            <img
+              alt="image"
+              src="public/playground_assets/deaths.mae%20performance-400h.png"
+              class="home-image08"
+            />
+          </div>
+          <div class="home-container32">
+            <h1 class="home-text64">Fatalities</h1>
+          </div>
+        </div>
+        <div class="home-container33">
+          <div class="home-container34">
+            <img
+              alt="image"
+              src="public/playground_assets/newcitywide-400h.jpg"
+              class="home-image09"
+            />
+          </div>
+          <div class="home-container35">
+            <h1 class="home-text65">NYC Citywide Collisions per month</h1>
+            <span class="home-text66">
+              This chart demonstrates that although speed cameras seem to have
+              an immediate positive impact on collisions at a given
+              intersection, other environmental factors (such as the COVID-19
+              Pandemic) may be partially responsible. More investigation is
+              still required
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      data-section-id="navbar"
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+  </body>
+</html>
